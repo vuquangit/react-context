@@ -29,7 +29,7 @@ class MyProvider extends Component {
   }
 }
 
-const Family = props => (
+const Family = () => (
   <div className="family">
     <Person />
   </div>
