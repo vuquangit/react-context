@@ -20,7 +20,7 @@ class MyProvider extends Component {
             this.setState({
               age: this.state.age + 1
             }),
-          update: data => this.setState({ data: data })
+          update: data => this.setState({ data })
         }}
       >
         {this.props.children}
